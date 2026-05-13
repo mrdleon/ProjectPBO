@@ -142,13 +142,18 @@ public class Perhitungan {
         try {
 
             System.out.println(
-                    "Volume = " +
-                            limas.hitungVolume()
+                "Tinggi Limas           = "
+                    + limas.getTinggiLimas()
             );
 
             System.out.println(
-                    "Luas Permukaan = " +
-                            limas.hitungLuasPermukaan()
+                "Volume Limas           = "
+                    + limas.hitungVolume()
+            );
+
+            System.out.println(
+                "Luas Permukaan Limas   = "
+                    + limas.hitungLuasPermukaan()
             );
 
         } catch (TrapesiumNotValidException e) {
@@ -184,13 +189,18 @@ public class Perhitungan {
         try {
 
             System.out.println(
-                    "Volume = " +
-                            prisma.hitungVolume()
+                "Tinggi Prisma          = "
+                    + prisma.getTinggiPrisma()
             );
 
             System.out.println(
-                    "Luas Permukaan = " +
-                            prisma.hitungLuasPermukaan()
+                "Volume Prisma          = "
+                    + prisma.hitungVolume()
+            );
+
+            System.out.println(
+                "Luas Permukaan Prisma  = "
+                    + prisma.hitungLuasPermukaan()
             );
 
         } catch (TrapesiumNotValidException e) {
